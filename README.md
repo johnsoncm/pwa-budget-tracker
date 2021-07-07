@@ -1,6 +1,6 @@
 # pwa-budget-tracker
 
-[Link to Deployed App]()
+[Link to Deployed App](https://damp-woodland-46122.herokuapp.com/)
 
 ## Description
 
@@ -65,8 +65,8 @@ THEN that will be shown on the page, and added to their transaction history when
 
 
 ## Mock Up
-![Added exercise]()
-![Stats Page]()
+![Screenshot](./public/assets/icons/Screenshot_of_Budget_app.png)
+
 
 ## Usage
 
