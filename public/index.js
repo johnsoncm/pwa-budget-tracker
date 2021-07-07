@@ -1,5 +1,15 @@
+if ('serviceWorker' in navigator){
+  window.addEventListener('load' , () => {
+    navigator.serviceWorker.register('/service-worker.js')
+    .then((r) => {
+      console.log('service worker registered' , r);
+    })
+  })
+}
 let transactions = [];
 let myChart;
+
+
 
 fetch("/api/transaction")
   .then(response => {
